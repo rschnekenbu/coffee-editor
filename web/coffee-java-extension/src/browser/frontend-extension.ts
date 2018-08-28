@@ -12,7 +12,7 @@ import { AnalysisEditorOpenHandler, WorkflowFileLocationMapper } from './editor-
 import { LocationMapper } from '@theia/mini-browser/lib/browser/location-mapper-service';
 import { IFileServer, filePath, IFileClient } from '../common/request-file-protocol';
 
-const LIGHT_THEME_ID = "light"
+const LIGHT_THEME_ID = "dark"
 export default new ContainerModule(bind => {
     ThemeService.get().setCurrentTheme(LIGHT_THEME_ID)
     bind(OpenHandler).to(AnalysisEditorOpenHandler)

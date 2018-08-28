@@ -39,7 +39,7 @@ export class AnalysisEditorOpenHandler implements OpenHandler {
             });
         });
     }
-    readonly id = "anaylsis-opener"
+    readonly id = "analysis-opener"
     label = "Workflow Analysis Editor"
     iconClass = "analysis-icon"
 
